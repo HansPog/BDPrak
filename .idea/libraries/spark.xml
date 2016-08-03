@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spark">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/spark-1.6.1/assembly/target/scala-2.10/spark-assembly-1.6.1-hadoop2.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/spark-1.6.1/assembly/target/scala-2.10/spark-assembly-1.6.1-hadoop2.6.0.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/spark-1.6.1/assembly/target/scala-2.10/spark-assembly-1.6.1-hadoop2.6.0.jar!/" />
+    </SOURCES>
+  </library>
+</component>

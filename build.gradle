@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "1.2.3"
+}
+
+sourceCompatibility = 1.8
+
+mainClassName = 'HelloSpark2'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "http://repo.hortonworks.com/content/groups/public"
+    }
+    maven {
+        url "http://repo.hortonworks.com/content/repositories/releases/"
+    }
+}
+
+dependencies {
+
+    testCompile 'junit:junit:4.11'
+    //compile ('org.apache.spark:spark-core_2.10:1.6.1')
+}
